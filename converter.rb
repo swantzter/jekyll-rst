@@ -8,7 +8,7 @@ module Jekyll
 
     def matches(ext)
       ext =~ /rst/i
-    end 
+    end
 
     def output_ext(ext)
       ".html"
@@ -27,4 +27,4 @@ module Jekyll
       converter.convert(input)
     end
   end
-end  
+end
